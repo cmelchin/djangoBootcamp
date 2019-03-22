@@ -1,0 +1,46 @@
+/*
+
+select tag{
+  property: value;
+}
+
+*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-weight: lighter;
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  width: 100px;
+  height: 250px;
+  border: 5px solid white;
+}
+
+#one{
+  background-color: #D9DCD6;
+}
+
+#two{
+  background-color: #596869;
+}
+
+#three{
+  background-color: #16425B;
+}
+
+#four{
+  background-color: #36453B;
+}
+
+#five{
+    background-color: #2F2F2F;
+}

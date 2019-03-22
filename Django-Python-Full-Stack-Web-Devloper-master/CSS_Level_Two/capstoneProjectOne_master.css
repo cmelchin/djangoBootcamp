@@ -1,0 +1,32 @@
+/*
+
+select tag{
+  property: value;
+}
+
+*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  border: 40px solid #0077ff;
+  border-top: 0px;
+  background-color: #002856;
+}
+
+p{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#button{
+  height: 50px;
+  width: 100px;
+  background-color: gold;
+  border-radius: 15px;
+  margin: 6px;
+}
