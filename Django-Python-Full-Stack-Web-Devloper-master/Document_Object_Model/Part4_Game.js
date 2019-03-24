@@ -1,35 +1,31 @@
 // Restart Game Button
-var restart = document.querySelector('#b');
+var restart = document.querySelector("#b");
 
 // Grab all the squares
 var squares = document.querySelectorAll("td");
 
-
 // Clear Squares Function
-function clearBoard() {
+function clearBoard(){
   for (var i = 0; i < squares.length; i++) {
-      squares[i].textContent = '';
+    squares[i].textContent="";
   }
-
 }
-restart.addEventListener('click',clearBoard)
 
-
-
+restart.addEventListener('click',clearBoard);
 
 // Create a function that will check the square marker
-function changeMarker(){
-    if(this.textContent === ''){
+
+function changeMarker() {
+  if(this.textContent === ''){
       this.textContent = 'X';
-      // console.log(marker)
-    }else if (this.textContent === 'X') {
-      this.textContent = 'O';
-    }else {
-      this.textContent = '';
-    }
-};
+  }else if(this.textContent === 'X'){
+    this.textContent = 'O';
+  }else {
+    this.textContent = '';
+  }
+}
+for (var i = 0; i < squares.length; i++) {
+  squares[i].addEventListener('click',changeMarker)
+}
 
 // Use a for loop to add Event listeners to all the squares
-for (var i = 0; i < squares.length; i++) {
-    squares[i].addEventListener('click', changeMarker);
-}
