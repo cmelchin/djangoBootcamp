@@ -5,7 +5,7 @@
 // knowledge.
 
 // These problem statements are sourced from codingbat.com,
-// a great website to practice your code!
+// a great website to practice code!
 
 // The problems will gradually get harder and harder.
 
@@ -24,7 +24,7 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-    //Code Goes Here
+    return (!weekday || vaction);
 }
 
 
@@ -42,7 +42,7 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-    //Code Goes Here
+    return (aSmile && bSmile) || (!aSmile && !bSmile)
 }
 
 
@@ -59,7 +59,13 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
-    //Code Goes Here
+    var prntStr = "";
+    var i = 0;
+      while (i<n){
+        prntStr = prntStr + str
+        i++
+      }
+    return(prntStr);
 }
 
 // PROBLEM 4: LUCKY SUM
