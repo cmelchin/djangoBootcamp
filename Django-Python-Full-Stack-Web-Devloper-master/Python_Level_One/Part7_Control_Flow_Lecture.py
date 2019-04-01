@@ -51,6 +51,7 @@
 
 # Now let's show some examples of if, elif, and else statements:
 
+
 if 1 < 2:
     print('Yep!')
 
@@ -109,8 +110,8 @@ else:
 # Perform an action with each element
 seq = [1,2,3,4,5]
 
-for item in seq:
-    print(item)
+for jelly in seq:
+    print('this is not a thing!')
 
 
 # Perform an action for every element but doesn't actually involve the elements
